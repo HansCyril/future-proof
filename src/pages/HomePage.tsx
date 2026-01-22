@@ -108,7 +108,7 @@ const HomePage: React.FC = () => {
               <motion.div
                 className="absolute inset-4 rounded-full bg-white dark:bg-gray-900 overflow-hidden"
                 animate={{
-                  scale: [1, 1.05, 1],
+                  scale: [2, 2.10, 2],
                 }}
                 transition={{
                   duration: 6,
