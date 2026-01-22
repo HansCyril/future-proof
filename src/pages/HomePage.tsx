@@ -2,6 +2,7 @@ import * as React from 'react'
 import { motion } from 'framer-motion'
 import { slideUpVariants, staggerContainerVariants, slideRightVariants } from '../utils/animations'
 import { ArrowDown, Github, Linkedin, Mail } from 'lucide-react'
+import jaweImage from '../image/jawe.jpg'
 
 const HomePage: React.FC = () => {
   const scrollToProjects = () => {
@@ -115,13 +116,11 @@ const HomePage: React.FC = () => {
                   ease: 'easeInOut',
                 }}
               >
-                <div className="w-full h-full rounded-full flex items-center justify-center">
-                  <img 
-                    src="/jawe.jpg" 
-                    alt="Hans Cyril T. Eder"
-                    className="w-full h-full rounded-full object-cover"
-                  />
-                </div>
+                <img 
+                  src={jaweImage} 
+                  alt="Hans Cyril T. Eder"
+                  className="w-full h-full object-cover rounded-full"
+                />
               </motion.div>
             </motion.div>
           </motion.div>
