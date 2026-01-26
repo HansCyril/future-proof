@@ -66,9 +66,9 @@ const HomePage: React.FC = () => {
             {/* Social Links */}
             <motion.div variants={slideUpVariants} className="flex space-x-4 pt-6">
               {[
-                { icon: Github, url: '#', label: 'GitHub' },
-                { icon: Linkedin, url: '#', label: 'LinkedIn' },
-                { icon: Mail, url: 'mailto:your@email.com', label: 'Email' },
+                { icon: Github, url: 'https://github.com/HansCyril', label: 'GitHub' },
+                { icon: Linkedin, url: 'https://www.linkedin.com/feed/', label: 'LinkedIn' },
+                { icon: Mail, url: 'https://mail.google.com/mail/u/0/#inbox', label: 'Email' },
               ].map(({ icon: Icon, url, label }) => (
                 <motion.a
                   key={label}
